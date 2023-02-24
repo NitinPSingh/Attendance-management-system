@@ -18,7 +18,7 @@ const MenuBar = ({studentCnt,handleAdd,handleSearch,handleCloseSearch,searchText
     },[toogle,searchText])
 
     return (
-        <div className='w-full mb-2  flex justify-between items-center max-[450px]:flex-col max-[450px]:gap-y-2 lg:w-[70vw] md:w-[80vw] w-[95vw] '>
+        <div className='w-full mb-2 px-2  flex justify-between items-center max-[450px]:flex-col max-[450px]:gap-y-2 lg:w-[70vw] md:w-[80vw] w-[95vw] '>
 
         <div className='border-2 max-[450px]:w-full flex justify-between'>
         <InputBase

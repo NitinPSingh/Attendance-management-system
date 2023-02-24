@@ -16,7 +16,7 @@ const TableContainer = ({data,handleDelete,handleCheckIn,handleCheckOut}) =>{
      
         
         <table className='w-full text-sm text-left text-gray-500 dark:text-gray-400'>
-        <thead className='text-base z-[10] text-gray-700 sticky top-0 font-bold uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400'>
+        <thead className='text-base z-[60] text-gray-700 sticky top-0 font-bold uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400'>
                                 <tr>
                                   
                                   <td className={`px-4 py-3 z-[60] text-center w-[15%] bg-gray-50 dark:bg-gray-700 ${isSticky?"sticky left-[0]":""}`}>Roll No  <PushPinIcon className='absolute top-[0] h-[1vh] transform rotate-45 ' onClick={()=>setIsSticky(!isSticky)} color={isSticky ?'primary':''}  /> </td>

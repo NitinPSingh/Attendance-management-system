@@ -30,7 +30,7 @@ const AddModal = ({handleClose,handleAdd,validateRollNos}) => {
         Cancel
         </Button> 
         <Button variant="contained" disabled={validateRollNos(rollNo)} color="success" onClick= {()=>handleSubmit()}>
-      Success
+      Submit
       </Button>
       </div>
       <div className={`${!validateRollNos(rollNo)?"hidden":"text-[red]"} absolute bottom-[4px] text-xs color-[red]`}>rollno already present</div>
